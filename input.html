@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Input</title>
+    </head>
+    <body>
+        <form action="index.html">
+
+            <input type="button" value="Click Me"><br><br>
+
+            <label for="Yes">Agree or Disagree: </label>
+            <input type="checkbox" name="Yes" value="on"><br><br>
+
+            <label for="monstor-color">Choose your monster's colors: </label>
+            <input type="color" value="#647AF5"><br><br>
+
+            <label for="start">Start date: </label>
+            <input type="date" value="2023-02-27"><br><br>
+
+            <label for="meeting-time">Choose a time for your appoinment: </label>
+            <input type="datetime-local" value="2023-03-27T08:30"><br><br>
+
+            <label for="email">Enter your golbex.com email: </label>
+            <input type="email" pattern=".+@gmail.com"><br><br>
+
+            <label for="avatr">Choose a profile picture: </label>
+            <input type="file"><br><br>
+
+            <label for="userId">User ID: </label>
+            <input type="image" alt="Login" src="images/icons8-enter-26.png"><br><br>
+
+            <label for="tentacles">Number of tentacles (10-100)</label>
+            <input type="number" value="10" min="10" max="100"><br><br>
+
+            <label for="pass">Password (8 characters minimum): </label>
+            <input type="password" minlength="8" required><br><br>
+            
+            <input type="radio" id="huey" name="drone" value="huey">
+            <label for="huey">Huey</label>
+            <input type="radio" id="dewey" name="drone" value="dewey">
+            <label for="dewey">Dewey</label>
+            <input type="radio" id="louie" name="drone" value="louie">
+            <label for="louie">Louie</label><br><br>
+
+            <input type="range" id="volume" name="volume" min="0" max="11">
+            <label for="volume">Volume</label><br><br>
+
+            <input type="reset" value="Reset"><br><br>
+
+            <label for="site-search">Search the site: </label>
+            <input type="search" id="site-search" name="q">
+            <button>Search</button>
+
+            
+        </form>
+
+    </body>
+</html>
